@@ -12,6 +12,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Optional;
 
+//Sergio Wu
 @WebServlet(name = "exchangeRatesServlet",
         urlPatterns = {"/exchange-rate"},
         loadOnStartup = 1)
