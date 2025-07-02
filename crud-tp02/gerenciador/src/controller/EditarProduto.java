@@ -1,4 +1,4 @@
-// Bruno Souza e Gabriela Wandenkolk
+
 package controller;
 
 import model.Produto;
@@ -26,10 +26,10 @@ public class EditarProduto extends HttpServlet {
                     return;
                 }
             } catch (NumberFormatException e) {
-                // ID inv·lido, vocÍ pode registrar o erro ou ignorar
+                // ID inv√°lido, voc√™ pode registrar o erro ou ignorar
             }
         }
-        // Redireciona caso o ID seja inv·lido ou produto n„o encontrado
+        // Redireciona caso o ID seja inv√°lido ou produto n√£o encontrado
         resp.sendRedirect("produtos");
     }
 
@@ -53,7 +53,7 @@ public class EditarProduto extends HttpServlet {
 
             Banco.atualizar(p);
         } catch (NumberFormatException e) {
-            // Tratar erro se algum valor n„o for v·lido (opcional)
+            // Tratar erro se algum valor n√£o for v√°lido (opcional)
         }
 
         resp.sendRedirect("produtos");
