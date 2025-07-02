@@ -1,4 +1,4 @@
-// Bruno Souza e Gabriela Wandenkolk
+
 package controller;
 
 import model.Produto;
